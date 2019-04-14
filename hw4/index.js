@@ -14,7 +14,7 @@ const examples = {
   'example3':
       'Scepticism was as much the result of knowledge, as knowledge is of scepticism.',
   'example4':
-      'Pierre turned his whole body, making the sofa creak. He lifted his eager face to Prince Andrew, smiled, and waved his hand.'
+      'Pierre turned his whole body, making the sofa creak.'
 };
 
 function status(statusText) {
