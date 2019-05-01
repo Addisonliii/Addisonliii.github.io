@@ -1,0 +1,48 @@
+
+<!doctype html>
+
+<body>
+  <style>
+    .colorbot {
+      width: 100px;
+      height: 100px;
+    }
+  </style>
+  
+  <div class="create-model">
+    <button id="load-model" style="display:none">Load model</button>
+  </div>
+  
+  <div>
+    <div>
+      <span>Vocabulary size: </span>
+      <span id="vocabularySize"></span>
+    </div>
+    <div>
+      <span>Max length: </span>
+      <span id="maxLen"></span>
+    </div>
+  </div>
+  <hr />
+  
+  <div>
+    Please enter a color name:
+  </div>
+  <div>
+    <textarea id="text-entry"></textarea>
+  </div>
+  <hr />
+  
+  <div>
+    Color predict:
+    <div id='colorbot' class='colorbot'></div>
+  </div>
+  
+  <div>
+    <span id="status">Standing by.</span>
+  </div>
+  
+  <script src='https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js'></script>
+  <script src='index.js'></script>
+</body>
+
