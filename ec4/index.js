@@ -38,7 +38,7 @@ function doPredict(predict) {
   const result = predict(textField.value);
   const rgbColor = 'rgb(' + Math.floor(result.score[0] * 255) + ',' + Math.floor(result.score[1] * 255) + ','+ Math.floor(result.score[2] * 255) + ')'
   console.log(rgbColor);
-  document.getElementById('body').style.background = rgbColor;
+  document.body.style.backgroundColor = rgbColor;
 }
 
 function prepUI(predict) {
